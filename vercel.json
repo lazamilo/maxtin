@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": "echo 'static site, prebuilt in site/'",
+  "installCommand": "echo 'no install'",
+  "outputDirectory": "site",
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+  ]
+}
